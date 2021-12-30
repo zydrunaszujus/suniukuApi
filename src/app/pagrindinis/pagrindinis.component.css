@@ -1,0 +1,97 @@
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .pagrindinis {
+        width: 70%;
+        position: absolute;
+        height: 100%;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mygtukas {
+        width: 100px;
+        height: 4vh;
+        color: white;
+        background-color: rgb(19, 172, 233);
+    }
+    
+    .generatorius {
+        display: flex;
+    }
+    
+    .JasonAdresas {
+        display: block;
+        padding: 9.5px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        word-break: break-all;
+        word-wrap: break-word;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 500px;
+        height: 100px;
+        overflow-x: scroll;
+    }
+    
+    .json {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    
+    .tekstas {
+        font-size: 20px;
+        text-align: center;
+        white-space: wrap;
+        letter-spacing: 2px;
+        line-height: 3;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 40px;
+        margin-bottom: 80px;
+    }
+    
+    .nuotrauka {
+        position: fixed;
+        display: flex;
+        max-width: 200px;
+        max-height: 200px;
+        margin-bottom: 1rem;
+    }
+    
+    .nuoroda {
+        width: 500px;
+        height: 4vh;
+        font-size: 18px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        border: 1px solid grey;
+    }
+    
+    .fotoGrupe {
+        display: block;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    
+    .jsonGrupe {
+        margin-right: 100px;
+    }
+    
+    h4,
+    h1 {
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+        text-align: center;
+    }

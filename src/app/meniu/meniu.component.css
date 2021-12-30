@@ -1,0 +1,36 @@
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .meniu {
+        height: 100vh;
+        background-color: #eee;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 25%;
+        padding: 2rem;
+        transition: left 600ms ease-in-out;
+        z-index: 1;
+        margin-right: 2px;
+    }
+    
+    .logo {
+        width: 350px;
+        height: 350px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    
+    ul a {
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid #ccc;
+        color: #333;
+        padding: .5rem 0;
+        text-decoration: none;
+        font-size: 20px;
+        text-decoration: none;
+    }
