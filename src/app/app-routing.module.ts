@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 
 
 export const routes: Routes = [
+
   { path: 'apie', component: ApieComponent },
   { path: 'dokumentacija', component: DokumentacijaComponent },
   { path: 'pagrindinis', component: PagrindinisComponent },

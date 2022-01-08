@@ -6,13 +6,13 @@ import { routes } from '../app-routing.module';
   templateUrl: './meniu.component.html',
   styleUrls: ['./meniu.component.css']
 })
-export class MeniuComponent implements OnInit {
+
+export class MeniuComponent {
 
   constructor() { }
 
   ngOnInit(): void {
   }
-grizti(){
-  window.location.href='pagrindinis';
-}
+  
+
 }

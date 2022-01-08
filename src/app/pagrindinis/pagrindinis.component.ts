@@ -22,8 +22,8 @@ export class PagrindinisComponent {
   vardas="vardas";
   nuotrauka="nuotrauka";
   suniukas="";
-  manoNuotrauka="http://lt.happybowwow.org/05_-e1495398326133.jpg";
-  adresas=JSON.stringify(JSON.parse('{ "vardas": "Bobikas 1", "nuotrauka": "http://lt.happybowwow.org/05_-e1495398326133.jpg"}'),null,4);
+  manoNuotrauka="https://images.dog.ceo/breeds/mountain-swiss/n02107574_2724.jpg";
+  adresas=JSON.stringify(JSON.parse('{ "vardas": "Bobikas 1", "nuotrauka": "https://images.dog.ceo/breeds/mountain-swiss/n02107574_2724.jpg"}'),null,4);
 //adresas ,kad rodytu nuotrauka ir adresa
   
 async gautiSuniuka(){
