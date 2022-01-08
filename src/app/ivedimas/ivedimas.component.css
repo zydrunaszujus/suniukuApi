@@ -1,0 +1,30 @@
+.pagrindinis {
+    width: 70%;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mygtukas {
+    width: 100px;
+    height: 4vh;
+    color: white;
+    background-color: rgb(19, 172, 233);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.vardoLangas,
+.nuorodosLangas {
+    width: 600px;
+    height: 40px;
+    margin: 20px;
+}
+
+.ivedimas {
+    /* display: none; */
+    margin: 30px;
+}

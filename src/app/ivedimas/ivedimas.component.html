@@ -1,0 +1,17 @@
+<app-meniu></app-meniu>
+<div class="pagrindinis">
+    <!-- <button class="mygtukas" (click)="ivestisuniuka()">Ivesti suniuka</button> -->
+    <div class="ivedimas">
+        <form [formGroup]="forma">
+            <div class="vardoIvedimas">
+                <label class="vardas"></label>
+                <input formControlName="vardas" type="text" class="vardoLangas" placeholder="Įvesite vardą">
+            </div>
+            <div class=" nuorodosIvedimas ">
+                <label class="nuoroda "></label>
+                <input formControlName="nuotrauka" type="text" class="nuorodosLangas" placeholder="Įveskite nuorodą">
+            </div>
+            <button class="mygtukas" (click)="pateiktiForma() ">Patvirtinti</button>
+        </form>
+    </div>
+</div>
