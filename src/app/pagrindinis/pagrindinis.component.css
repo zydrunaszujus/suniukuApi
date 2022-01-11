@@ -51,11 +51,8 @@
     }
     
     .nuotrauka {
-        position: fixed;
-        display: flex;
-        max-width: 200px;
-        max-height: 200px;
-        margin-bottom: 1rem;
+        max-width: 350px;
+        max-height: 300px;
     }
     
     .nuoroda {
