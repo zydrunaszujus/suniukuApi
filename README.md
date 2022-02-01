@@ -1,5 +1,5 @@
 
-Svetainės adresas https://focused-dijkstra-089b42.netlify.app/
+Svetainės adresas https://suniukuapi.netlify.app
 
 # SuniukuApi
 
